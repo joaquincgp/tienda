@@ -85,6 +85,23 @@ public class TiendaInterfaz extends JFrame{
                 }
 
         });
+
+        cambiarProducto.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String producto = JOptionPane.showInputDialog("Ingrese el nombre del producto que desea cambiar");
+                String nProducto = JOptionPane.showInputDialog("Ingrese el nuevo producto");
+                String ptipo = JOptionPane.showInputDialog("Ingrese el tipo del producto");
+                double pValor = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el valor del producto"));
+                int pCantidad = Integer.parseInt(JOptionPane.showInputDialog("Cantidad que desea ingresar"));
+                int pCantidadMinima = Integer.parseInt(JOptionPane.showInputDialog("Cantidad minima"));
+                tienda2.cambiarProducto(producto, nProducto, Producto.Tipo.valueOf(ptipo), pValor, pCantidad, pCantidadMinima);
+                JOptionPane.showMessageDialog(null,"Producto cambiado con exito");
+
+            }
+        });
+
+
     }
 
 }
