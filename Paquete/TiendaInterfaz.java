@@ -100,6 +100,12 @@ public class TiendaInterfaz extends JFrame{
 
             }
         });
+        calcularVentas.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                outputArea.setText("----Producto mas Vendido----\n" + tienda2.darProductoMasVendido().darNombre()+"\n"+"------Producto menos Vendido-------\n"+tienda2.darProductoMenosVendido().darNombre()+"\n"+"Dinero en caja: "+tienda2.darDineroEnCaja()+"\n"+"Promedio de ventas: "+tienda2.darPromedioVentas());
+            }
+        });
 
 
     }
