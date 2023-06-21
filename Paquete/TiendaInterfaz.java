@@ -3,6 +3,8 @@ package Paquete;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseWheelEvent;
+import java.awt.event.MouseWheelListener;
 
 public class TiendaInterfaz extends JFrame{
     Tienda tienda2 = new Tienda();
@@ -17,8 +19,12 @@ public class TiendaInterfaz extends JFrame{
     private JButton abastecer;
     private JButton cambiarProducto;
     private JButton calcularVentas;
-    private JTextArea outputArea;
+    public JTextArea outputArea;
     private JButton borrarButton;
+    private JScrollBar scrollBar1;
+    private JScrollPane scrollPane;
+
+    //private JScrollPane scroll;
 
 
     /*//
@@ -26,6 +32,8 @@ public class TiendaInterfaz extends JFrame{
      */
     public TiendaInterfaz(){
         setContentPane(ventana);
+
+        // Crear el JScrollPane y configurarlo para el JTextArea
         verProductos.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -107,6 +115,13 @@ public class TiendaInterfaz extends JFrame{
             }
         });
 
+
+        borrarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                outputArea.setText("");
+            }
+        });
 
     }
 

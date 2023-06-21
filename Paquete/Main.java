@@ -10,8 +10,15 @@ public class Main {
             public void run() {
                 TiendaInterfaz tiendaInterfaz = new TiendaInterfaz();
                 tiendaInterfaz.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                tiendaInterfaz.setSize(300, 300);
+                tiendaInterfaz.setSize(800, 800);
+                tiendaInterfaz.setLocationRelativeTo(null);
+                /*JScrollPane scrollPane = new JScrollPane(tiendaInterfaz.outputArea);
+                scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+                */
                 tiendaInterfaz.setVisible(true);
+
+                //JScrollPane scrollPane = new JScrollPane(tiendaInterfaz);
+                //tiendaInterfaz.getContentPane().add(scrollPane);
             }
         });
         Scanner sc = new Scanner(System.in);

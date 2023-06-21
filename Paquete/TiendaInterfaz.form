@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Paquete.TiendaInterfaz">
-  <grid id="27dc6" binding="ventana" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="ventana" layout-manager="GridLayoutManager" row-count="7" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="14" width="539" height="423"/>
+      <xy x="20" y="14" width="569" height="423"/>
     </constraints>
     <properties/>
     <border type="none" title="Tienda UDLA"/>
@@ -18,7 +18,7 @@
       </component>
       <component id="d7f81" class="javax.swing.JLabel" binding="opcion1">
         <constraints>
-          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="1. Visualizar la informacion de los productos"/>
@@ -26,7 +26,7 @@
       </component>
       <component id="bc313" class="javax.swing.JLabel" binding="opcion2">
         <constraints>
-          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="2. Vender un producto"/>
@@ -34,7 +34,7 @@
       </component>
       <component id="9bafd" class="javax.swing.JLabel" binding="opcion3">
         <constraints>
-          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="3. Abastecer la tienda con un producto"/>
@@ -42,7 +42,7 @@
       </component>
       <component id="c5210" class="javax.swing.JLabel" binding="opcion4">
         <constraints>
-          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="4. Cambiar un producto"/>
@@ -50,7 +50,7 @@
       </component>
       <component id="7355" class="javax.swing.JLabel" binding="opcion5">
         <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="5. Calcular estadisticas de ventas"/>
@@ -58,7 +58,7 @@
       </component>
       <component id="c8426" class="javax.swing.JButton" binding="verProductos">
         <constraints>
-          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Ver"/>
@@ -66,7 +66,7 @@
       </component>
       <component id="7eb0c" class="javax.swing.JButton" binding="venderProducto">
         <constraints>
-          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Vender"/>
@@ -74,7 +74,7 @@
       </component>
       <component id="bda07" class="javax.swing.JButton" binding="abastecer">
         <constraints>
-          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Abastecer"/>
@@ -82,7 +82,7 @@
       </component>
       <component id="444d7" class="javax.swing.JButton" binding="cambiarProducto">
         <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Cambiar"/>
@@ -90,7 +90,7 @@
       </component>
       <component id="f0730" class="javax.swing.JButton" binding="calcularVentas">
         <constraints>
-          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Calcular"/>
@@ -98,7 +98,7 @@
       </component>
       <component id="58347" class="javax.swing.JTextArea" binding="outputArea">
         <constraints>
-          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
@@ -111,6 +111,12 @@
         <properties>
           <text value="Borrar"/>
         </properties>
+      </component>
+      <component id="2c4de" class="javax.swing.JScrollBar" binding="scrollBar1" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
       </component>
     </children>
   </grid>
